@@ -1,4 +1,4 @@
-# Simple-UDP-Server
+# Simple UDP Server
 
 `udp_server.py` listens and prints with a timestamp. Nothing else to it.
 
