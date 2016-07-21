@@ -4,7 +4,7 @@
 
 ## QuickStart
 
-    $ git clone  git@github.com:findkim/simple-udp-server.git
+    $ git clone git@github.com:findkim/simple-udp-server.git
     $ cd simple-udp-server
     $ python simple-udp-server.py
 
