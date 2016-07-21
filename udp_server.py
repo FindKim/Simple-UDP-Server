@@ -21,7 +21,7 @@ def main():
 
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     sock.bind((args.host, args.port))
-    print 'Running on %s:%d\n' % (args.host, args.port)
+    print 'Running on %s:%d\t(ctrl+c to quit)\n' % (args.host, args.port)
 
     try:
         while True:
@@ -29,7 +29,7 @@ def main():
             print str(datetime.datetime.now()), data
     except KeyboardInterrupt:
         sock.close()
-        print 'Connection closed'
+        print '\nConnection closed'
         sys.exit()
 
 if __name__ == '__main__':
